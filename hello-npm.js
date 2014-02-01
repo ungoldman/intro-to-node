@@ -6,7 +6,7 @@
 // "request" is a module that makes requests to web pages. Observe!
 var request = require('request');
 
-request('http://www.google.com', function (error, response, body) {
+request('http://nodeschool.io', function (error, response, body) {
   if (error) {
     return;
   }
